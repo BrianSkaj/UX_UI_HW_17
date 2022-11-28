@@ -1,6 +1,16 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+.navigation{
+    width: 100%;
+    background-color: grey;
+    outline: 2px solid black;
+}
+
 .inline-block{
     display: inline-block;
-    vertical-align: top;
 }
 
 .logo{
@@ -9,21 +19,13 @@
     text-align: center;
 }
 
-nav{
-    width: 73%;
-    padding: 1%;
-}
-
-ul{
-    width: 50%;
-    margin-left: auto;
-    padding-inline: center;
-    outline: 10px solid red;
-}
-
 .heroImg{
     height: 600px;
+    width: 100%;
     padding: 25px;
+    color: yellow;
+    font-size: 16pt;
+    background-color: grey;
 }
 
 .content{
@@ -31,16 +33,19 @@ ul{
     margin: 0 auto;
 }
 
-footer, ul, li{
+footer{
+    background-color: grey;
+    outline: 2px solid black;
+}
+footer ul li{
     background-color: #373738;
     padding-inline: center;
     color: yellow;
-    /*outline: 1px solid red;*/
 }
+
 footer ul{
     display: inline-block;
     vertical-align: top;
     padding-inline: center;
     color: yellow;
-    /*outline: 10px solid red;*/
 }
